@@ -1,0 +1,66 @@
+
+###> symfony/framework-bundle ###
+/server/.env
+/server/config/jwt/
+/server/prod.env
+/server/dev.env
+/server/public/bundles/
+/server/public/build/css/
+/server/public/build/js/
+/server/var/
+/server/vendor/
+/server/composer.phar
+###< symfony/framework-bundle ###
+
+###> symfony/web-server-bundle ###
+/server/.web-server-pid
+###< symfony/web-server-bundle ###
+
+###> friendsofphp/php-cs-fixer ###
+/server/.php_cs
+/server/.php_cs.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> symfony/phpunit-bridge ###
+/server/.phpunit
+/server/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/webpack-encore-pack ###
+/server/node_modules/
+###< symfony/webpack-encore-pack ###
+/server/public/build/pdf/
+
+
+/client/.DS_STORE
+/client/ng-uikit-pro-standard-7.1.1.tgz
+
+/client/dist/
+/client/bazel-*
+/client/e2e_test.*
+/client/node_modules
+/client/bower_components
+/client/tools/gulp-tasks/cldr/cldr-data/
+
+# Include when developing application packages.
+/client/pubspec.lock
+/client/.c9
+/client/.idea/
+/client/.settings/
+/client/*.swo
+/client/modules/.settings
+/client/.vscode
+/client/modules/.vscode
+
+# Don't check in secret files
+/client/*secret.js
+
+# Ignore npm/yarn debug log
+/client/npm-debug.log
+/client/yarn-error.log
+
+# build-analytics
+/client/.build-analytics
+
+# rollup-test output
+/client//modules/rollup-test/dist/
